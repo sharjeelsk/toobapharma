@@ -1,0 +1,19 @@
+img{
+   width:5vw;
+}
+
+.logoimg{
+    width:3vw;
+}
+
+body{
+    font-size:1.25rem;
+    margin: 0 15%;
+}
+.navbar-nav li{
+    padding:0 .25rem;
+}
+
+.navbar{
+    background-color: #c7edcf !important;
+}

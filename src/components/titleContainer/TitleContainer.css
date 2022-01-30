@@ -1,0 +1,80 @@
+.con{
+    margin-top:20%;
+}
+.titleheading{
+    background-color: green;
+    background-image: linear-gradient(45deg, #184d47, #54e346);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size:4rem;
+}
+.display-6{
+    font-family: 'Montserrat', sans-serif;
+    font-size:2rem;
+}
+.seconddiv{
+    background: linear-gradient(to left,#47965f,#c7edcf);
+    padding:20px;
+    border-radius: 0 50px 50px 0;
+}
+body{
+    font-size:1.25rem;
+}
+.para1{
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    margin:10rem 5rem 15rem 5rem;
+    font-weight:bold;
+}
+.heading2{
+    font-family: 'Anton', sans-serif;
+    font-weight: light;
+    font-size:2.5rem;
+    text-align:center;
+    margin:7% 35% 0 35%;
+    padding-bottom: 3%;;
+     
+}
+.quote{
+    font-family:'Roboto Mono', sans-serif;
+    font-size:2rem;
+    font-weight:bold;
+    margin-top:1%;
+    padding:1%;
+}
+.strengthdiv{
+    border-radius: 100px;
+    padding:4% 5% 4% 5%;
+    background: linear-gradient(to top, #47965f,#c7edcf,#c7edcf );
+
+}
+.para2{
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    font-weight: bold;
+}
+
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+    .heading2{
+        
+        margin:7% 20%;
+         
+    }
+
+}
+@media (max-width: 576px) {
+    .heading2{
+        
+        margin:7% 20%;
+         
+    }
+}

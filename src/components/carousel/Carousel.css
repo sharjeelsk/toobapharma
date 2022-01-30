@@ -1,0 +1,40 @@
+
+
+
+.myimages{
+    /* height:100%;
+    width:100%; */
+   
+    width:100%;
+}
+
+.heading{
+    font-family:"Anton", sans-serif;
+    font-size:2rem;
+    margin-top:5%;
+}
+
+.para{
+    font-size:1rem;
+    color:gray
+}
+
+
+.mycard{
+    padding-bottom: 5%;
+    margin:10% 5%;
+    text-align:center;
+    opacity:1;
+    transition: background 5s ease;
+    border-radius:20px;
+    box-shadow:10px -20px 60px lightgrey; 
+    background: linear-gradient(to bottom, #47965f,#c7edcf );
+}
+
+.mycard:hover{
+    transition:.5s;
+    opacity:1;
+    transform:scale(1.1);
+    Box-shadow:0 10px 10px #4E9B65, 0 5px 5px #4E9B65;
+    
+}

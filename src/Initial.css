@@ -1,0 +1,244 @@
+
+
+.flask2{
+    position:absolute;
+    right:5%;
+    transform:rotate(-45deg);
+    top:25%;
+    opacity:.2;
+    animation-name:animateflask2;
+animation-duration:2s;
+animation-timing-function: linear;
+animation-delay:0.01s;
+animation-iteration-count:1;
+animation-direction:normal;
+}
+
+.flask{
+    position:absolute;
+    left:5%;
+    transform:rotate(45deg);
+    top:25%;
+    opacity:.2;
+animation-name:animateflask;
+animation-duration:2s;
+animation-timing-function: linear;
+animation-delay:0.01s;
+animation-iteration-count:1;
+animation-direction:normal;
+
+}
+.lab{
+    position:absolute;
+    top:20%;
+    opacity:.9;
+    left:20%;
+    width:5%;
+    animation-name:animatelab;
+    animation-duration:8s;
+    animation-timing-function: linear;
+    animation-delay:1s;
+    animation-iteration-count:infinite;
+    animation-direction:normal;
+}
+
+.mol{
+    position:absolute;
+    top:18%;
+    opacity:.9;
+    left:50%;
+    width:5%;
+    animation-name:mol;
+    animation-duration:8s;
+    animation-timing-function: linear;
+    animation-delay:1s;
+    animation-iteration-count:infinite;
+    animation-direction:normal;
+}
+.mol2{
+    position:absolute;
+    top:25%;
+    opacity:.9;
+    left:75%;
+    width:5%;
+    animation-name:mol1;
+    animation-duration:8s;
+    animation-timing-function: linear;
+    animation-delay:1s;
+    animation-iteration-count:infinite;
+    animation-direction:normal;
+}
+
+.fist{
+    position:absolute;
+    left:5%;
+    top:175%;
+    opacity:.2;
+}
+.pills{
+    position:absolute;
+    left:5%;
+    top:275%;
+    opacity:.2;
+}
+
+.fist1{
+    position:absolute;
+    right:5%;
+    top:175%;
+    opacity:.2;
+}
+.pills1{
+    position:absolute;
+    right:5%;
+    top:275%;
+    opacity:.2;
+}
+
+
+.tooba{
+    position: absolute;
+    left:7%;
+    top:24rem;
+    width:7%;
+}
+
+
+@keyframes animatelab{
+    12%{
+        transform:rotate(30deg)
+    }
+    24%{
+        opacity:rotate(60deg);
+    }
+    36%{
+        opacity:rotate(90deg);
+    }
+    48%{
+        opacity:rotate(120deg)
+    }
+    60%{
+        transform:rotate(180deg)
+    }
+    72%{
+        opacity:rotate(270deg);
+    }
+    84%{
+        opacity:rotate(320deg);
+    }
+    100%{
+        opacity:rotate(360deg)
+    }
+}
+
+@keyframes mol{
+    12%{
+        transform:rotate(30deg)
+    }
+    24%{
+        opacity:rotate(60deg);
+    }
+    36%{
+        opacity:rotate(90deg);
+    }
+    48%{
+        opacity:rotate(120deg)
+    }
+    60%{
+        transform:rotate(180deg)
+    }
+    72%{
+        opacity:rotate(270deg);
+    }
+    84%{
+        opacity:rotate(320deg);
+    }
+    100%{
+        opacity:rotate(360deg)
+    }
+}
+
+@keyframes mol1{
+    12%{
+        transform:rotate(30deg)
+    }
+    24%{
+        opacity:rotate(60deg);
+    }
+    36%{
+        opacity:rotate(90deg);
+    }
+    48%{
+        opacity:rotate(120deg)
+    }
+    60%{
+        transform:rotate(180deg)
+    }
+    72%{
+        opacity:rotate(270deg);
+    }
+    84%{
+        opacity:rotate(320deg);
+    }
+    100%{
+        opacity:rotate(360deg)
+    }
+}
+
+@keyframes animateflask{
+    0%{
+        left:-10%;
+        transform:rotate(-45deg);
+        top:25%;
+        opacity:.2;
+    }
+    50%{
+        left:2%;
+        transform:rotate(-45deg);
+        top:25%;
+        opacity:.2;
+    }
+    100%{
+        left:5%;
+        transform:rotate(45deg);
+        top:25%;
+        opacity:.2;
+    }
+}
+
+@keyframes animateflask2{
+    0%{
+        right:-10%;
+        transform:rotate(45deg);
+        top:25%;
+        opacity:.2;
+    }
+    50%{
+        right:2%;
+        transform:rotate(45deg);
+        top:25%;
+        opacity:.2;
+    }
+    100%{
+        right:5%;
+        transform:rotate(-45deg);
+        top:25%;
+        opacity:.2;
+    }
+}
+
+@media (max-width: 1050px) {
+    .lab{
+        display:none;
+    }
+}
+@media (max-width: 768px) {
+.lab{
+    display:none;
+}
+}
+@media (max-width: 576px) {
+    .lab{
+        display:none;
+    }
+}

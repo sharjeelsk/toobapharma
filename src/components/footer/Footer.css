@@ -1,0 +1,56 @@
+.footer{
+    height: 100%;
+    width:123%;
+    margin:0;
+    padding:10px 0;
+    background: linear-gradient(to left, #47965f,#c7edcf );
+}
+
+.field{
+    padding:1%;
+    
+}
+
+.form{
+    margin:0 1%;
+}
+
+
+
+#custom-css-standard-input{
+    margin:2% 0;
+}
+textarea{
+    background-color:transparent !important;
+    display:block;
+    border-radius: 20px;
+    border:none;
+    border-bottom: 0.1px solid grey;
+    
+}
+
+textarea:focus{
+    outline:none
+}
+
+
+.fielddiv{
+    margin:1% 0;
+}
+
+.submitbutton{
+    margin:2% 0;
+}
+
+.headingfooter{
+    font-family: "Anton",sans-serif;
+    font-size:2rem;
+    text-align: left;
+}
+
+.headingfooter2{
+    font-family: "Anton",sans-serif;
+    font-size:2rem;
+    text-align: left;
+    margin:2% 0;
+}

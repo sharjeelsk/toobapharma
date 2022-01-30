@@ -1,0 +1,18 @@
+.flaskimage{
+    width:25vw;
+}
+
+.h2{
+    font-family:"Anton", sans-serif;
+    font-size: 2em;
+    border-bottom:10px solid #47965f;
+    margin-bottom:10%;
+    padding-bottom: 5%;
+    
+}
+
+.readmore{
+    color:darkgreen;
+    padding:4% 6%;
+    margin-bottom: 5%;
+}

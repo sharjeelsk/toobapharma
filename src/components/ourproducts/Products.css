@@ -1,0 +1,30 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.root{
+    margin:30% 0;
+    font-size: 1.6rem;
+    border-radius: 15px;
+    padding:3% 0;
+    border-radius: 100px;
+    background: linear-gradient(to top, #47965f,#c7edcf,#c7edcf );
+
+    
+}
+
+h3{
+    font-family:"Anton", sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+  
+}
+
+.parent{
+padding:3% 0;
+}
+.parentlist{
+    padding:300px 0;
+}
+
+
